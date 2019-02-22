@@ -28,7 +28,7 @@ SUMA_TRES:
 STOP:
 	br STOP
 
-/*	.data	NO PONER, PUNTERO QUE DA POR SACO */
+/*	.data	Ojo si pones la instruccion .data, apunta a otra zona de memoria */
 .org 0x1000
 	.word 7, 4, 10
 RESULT:
